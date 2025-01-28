@@ -25,7 +25,6 @@ public class QuizApplication {
             System.out.print("Enter your choice: ");
 
             int choice = scanner.nextInt();
-
             if (choice == 1) {
                 quiz.takeQuiz();
             } else if (choice == 2) {
@@ -36,6 +35,7 @@ public class QuizApplication {
             } else {
                 System.out.println("Invalid choice. Try again.");
             }
+
         }
     }
 
