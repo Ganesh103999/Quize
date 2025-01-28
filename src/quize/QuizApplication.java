@@ -10,7 +10,7 @@ public class QuizApplication {
         Quiz quiz = new Quiz();
         Admin admin = new Admin(quiz);
 
-        // Adding some hardcoded questions
+        //  We Define Question
         quiz.addQuestion(new Question("Which is not type of Inheritance",
                 new String[] { "Abstract", "Multi level", "Hybrid", "Single level" }, 0));
         quiz.addQuestion(new Question("What is 5 + 3?",
