@@ -12,14 +12,12 @@ public class Question {
         this.options = options;
         this.correctAnswer = correctAnswer;
     }
-
     public void displayQuestion() {
         System.out.println(questionText);
         for (int i = 0; i < options.length; i++) {
             System.out.println((i + 1) + ". " + options[i]);
         }
     }
-
     public boolean isCorrectAnswer(int choice) {
         return (choice - 1) == correctAnswer;
     }

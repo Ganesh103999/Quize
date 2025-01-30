@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Quiz {
 
-
     private ArrayList<Question> questions;
     private int correctAnswers;
     private int incorrectAnswers;
