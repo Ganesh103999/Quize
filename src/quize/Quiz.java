@@ -8,6 +8,7 @@ public class Quiz {
     private ArrayList<Question> questions;
     private int correctAnswers;
     private int incorrectAnswers;
+    private int xyz;
 
     public Quiz() {
         questions = new ArrayList<>();
