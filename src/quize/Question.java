@@ -2,8 +2,6 @@ package quize;
 
 public class Question {
 
-private  String name;
-private  String id;
     private String questionText;
     private String[] options;
     private int correctAnswer; // Will use Index correct answer
